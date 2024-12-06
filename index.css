@@ -1,0 +1,94 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: Outfit;
+
+}
+img{
+    height: 230px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.container{
+    width: 40%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 25px;
+    margin: 80px 0;
+    
+}
+
+p{
+    font-size: 14px;
+}
+
+.hero{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+
+}
+
+.hero h2{
+    color: hsl(332, 51%, 32%);
+    padding-left: 20px;
+}
+
+li{
+    padding-left: 20px;
+    margin: 8px 0;
+}
+
+.hero li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+    padding-left: 20px;
+}
+
+footer, .table-para{
+    padding-left: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+footer div span{
+    margin: 8px 0;
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    padding-bottom: 8px;
+}
+
+.brown{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+.grey-border{
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    padding-bottom: 8px;
+}
+
+footer div span:last-of-type{
+    margin: 8px 0;
+    border-bottom: none;
+    padding-bottom: 8px;
+}
+li::marker{
+    color: hsl(14, 45%, 36%);
+}
